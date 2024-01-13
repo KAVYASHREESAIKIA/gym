@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kavya Fitness</title>
+  </head>
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+      background-image: url(iiiiiiiiii.jpg);
+      background-size: auto;
+    }
+
+    .left {
+      position: absolute;
+      left: 60px;
+      top: 22px;
+      display: inline-block;
+    }
+
+    .mid {
+      display: block;
+      width: 40%;
+      margin: 20px auto;
+    }
+
+    .right {
+      position: absolute;
+      right: 34px;
+      top: 22px;
+      display: inline-block;
+    }
+
+    .navbar {
+      display: inline-block;
+    }
+
+    .navbar li {
+      display: inline-block;
+      font-size: 17px;
+    }
+
+    .navbar li a {
+      color: azure;
+      text-decoration: none;
+      padding: 34px 15px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+      text-decoration: underline;
+      color: grey;
+    }
+
+    .left img {
+      width: 111px;
+    }
+
+    .left div {
+      color: rgb(171, 9, 9);
+      line-height: 10px;
+      font-size: 15px;
+      text-align: center;
+    }
+
+    .btn {
+      margin: 0px 9px;
+      color: azure;
+      background-color: black;
+      padding: 8px 12px;
+      border: 2px solid grey;
+      border-radius: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: rgb(41, 39, 39);
+    }
+
+    .container {
+      position: absolute;
+      border: 2px solid green;
+      left: 100px;
+      padding: 25px 25px;
+      width: 30%;
+      height: 51%;
+      border-radius: 12px;
+      border-color: whitesmoke;
+    }
+
+    .container1 {
+      position: absolute;
+      left: 700px;
+      border: 2px solid green;
+      padding: 25px 25px;
+      width: 30%;
+      height: 51%;
+      border-radius: 12px;
+      border-color: whitesmoke;
+      background-image: url(arm-back-muscles.jpg);
+      background-size: 122%;
+    }
+
+    .form-group input {
+      text-align: center;
+      display: block;
+      width: 300px;
+      border: 2px solid black;
+
+      font-size: 20px;
+      border-radius: 20px;
+      margin: 5px auto;
+    }
+
+    .container h1 {
+      text-align: center;
+      color: white;
+    }
+
+    .container1 h1 {
+      text-align: center;
+      color: white;
+      position: absolute;
+      top: -2%;
+      left: 31%;
+    }
+
+    .btn1 {
+      text-align: center;
+      display: block;
+      width: 300px;
+      border: 5px solid black;
+      padding: 3%;
+      border-radius: 20px;
+      margin: 15px auto;
+      color: white;
+      background-color: black;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <!---left class for logo--->
+      <div class="left">
+        <img src="logo.jpg" alt="" />
+        <div>Kavya Fitness</div>
+      </div>
+
+      <!--mid box for navigation-->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="homegym.html" class="active">Home</a></li>
+          <li><a href="aboutusgym.html">AboutUs</a></li>
+          <li><a href="#">FitnessCalculator</a></li>
+          <li><a href="contactus.html">ContactUs</a></li>
+        </ul>
+      </div>
+
+      <!-- right box for buttons-->
+      <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+    <br /><br /><br /><br />
+    <div class="container">
+      <h1>Join The Best Gym!</h1>
+      <form action="noaction.php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your name:" />
+        </div>
+        <div class="form-group">
+          <input type="number" name="" placeholder="Enter your age:" />
+        </div>
+        <div class="form-group">
+          <input
+            type="number"
+            name=""
+            placeholder="Enter your contact number:"
+          />
+        </div>
+        <div class="form-group">
+          <input type="email" name="" placeholder="Enter your email:" />
+        </div>
+        <button class="btn1">SUBMIT</button>
+      </form>
+    </div>
+    <div class="container1">
+      <h1>Here you go!</h1>
+    </div>
+  </body>
+</html>
